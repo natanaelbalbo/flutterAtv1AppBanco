@@ -51,7 +51,7 @@ class _AdicionarContaState extends State<AdicionarConta> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: const Color(0xFF00cc73),
+        backgroundColor: const Color.fromARGB(255, 183, 204, 195),
         title: const Text(
           "Adicionar conta",
           textDirection: TextDirection.ltr,
@@ -75,7 +75,9 @@ class _AdicionarContaState extends State<AdicionarConta> {
                   borderSide: BorderSide(color: Colors.black),
                 ),
                 focusedBorder: OutlineInputBorder(
-                  borderSide: BorderSide(color: Colors.green, width: 2.0),
+                  borderSide: BorderSide(
+                      color: const Color.fromARGB(255, 77, 75, 105),
+                      width: 2.0),
                 ),
               ),
               controller: descricao,
@@ -90,7 +92,9 @@ class _AdicionarContaState extends State<AdicionarConta> {
                   borderSide: BorderSide(color: Colors.black),
                 ),
                 focusedBorder: OutlineInputBorder(
-                  borderSide: BorderSide(color: Colors.green, width: 2.0),
+                  borderSide: BorderSide(
+                      color: const Color.fromARGB(255, 175, 152, 76),
+                      width: 2.0),
                 ),
               ),
               inputFormatters: [
@@ -109,7 +113,7 @@ class _AdicionarContaState extends State<AdicionarConta> {
               children: [
                 Expanded(
                     child: Material(
-                  color: Color(0xFF00cc73),
+                  color: Color.fromARGB(255, 165, 179, 173),
                   borderRadius: BorderRadius.circular(15.0),
                   child: InkWell(
                     onTap: () async {

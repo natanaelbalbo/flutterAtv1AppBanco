@@ -45,7 +45,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color(0xFF008c4f),
+        backgroundColor: Color.fromARGB(255, 170, 191, 182),
         title: const Text(
           "Registro de contas",
           textDirection: TextDirection.ltr,
