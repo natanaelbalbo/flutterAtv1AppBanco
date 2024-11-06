@@ -1,0 +1,24 @@
+{
+  "contas": [
+    {
+      "id": "ca22",
+      "descricao": "Compra de um cavalo",
+      "val": "7.500,00"
+    },
+    {
+      "id": "84b3",
+      "descricao": "Pagamento do agiota",
+      "val": "23.000,00"
+    },
+    {
+      "descricao": "Pagamento do boleto",
+      "val": "5.700,00",
+      "id": "a2b0"
+    },
+    {
+      "descricao": "Mercado",
+      "val": "20.000,01",
+      "id": "0452"
+    }
+  ]
+}
