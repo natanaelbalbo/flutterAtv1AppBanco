@@ -2,22 +2,22 @@
   "contas": [
     {
       "id": "ca22",
-      "descricao": "Compra de um cavalo",
-      "val": "7.500,00"
+      "descricao": "Compra de uma moto",
+      "val": "9.600,00"
     },
     {
       "id": "84b3",
-      "descricao": "Pagamento do agiota",
+      "descricao": "Dívida",
       "val": "23.000,00"
     },
     {
       "descricao": "Pagamento do boleto",
-      "val": "5.700,00",
+      "val": "8.000,00",
       "id": "a2b0"
     },
     {
       "descricao": "Mercado",
-      "val": "20.000,01",
+      "val": "20.000,00",
       "id": "0452"
     }
   ]
